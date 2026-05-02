@@ -1,12 +1,10 @@
 {
   "name": "devixus-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A local AI proxy that automatically routes simple prompts to cheaper LLM models to save API costs.",
   "type": "module",
   "main": "dist/index.js",
-  "bin": {
-    "devixus-router": "./dist/index.js"
-  },
+  "bin": { "devixus-router": "./dist/index.js" },
   "scripts": {
     "dev": "node --enable-source-maps --watch dist/index.js",
     "build": "tsc -p tsconfig.json",
