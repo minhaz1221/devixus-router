@@ -1,0 +1,9 @@
+# .cursorrules
+You are an expert Node.js and TypeScript CLI developer.
+Tech Stack: Node.js, TypeScript, ES Modules, cac, lowdb, chalk.
+Rules:
+- Write strictly typed TypeScript.
+- Use modular architecture (separate files for cli, proxy, db, router).
+- Handle Anthropic API errors gracefully.
+- All terminal output must be clean and color-coded.
+- Never write boilerplate comments; focus on functional logic.
