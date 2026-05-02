@@ -1,9 +1,8 @@
 {
   "name": "devixus-router",
   "version": "0.1.0",
-  "description": "A local dev router CLI with proxy + usage stats.",
+  "description": "A local AI proxy that automatically routes simple prompts to cheaper LLM models to save API costs.",
   "type": "module",
-  "private": true,
   "main": "dist/index.js",
   "bin": {
     "devixus-router": "./dist/index.js"
@@ -14,9 +13,18 @@
     "start": "node --enable-source-maps dist/index.js",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ai",
+    "llm",
+    "proxy",
+    "anthropic",
+    "claude",
+    "cost-saving",
+    "router",
+    "cli"
+  ],
+  "author": "Minhaz",
+  "license": "MIT",
   "dependencies": {
     "cac": "^6.7.14",
     "chalk": "^5.4.1",
